@@ -34,7 +34,7 @@ url_health_monitor_tool/
 git clone https://github.com/PreethamMadhamsetty/URL_health_monitor_tool.git
 cd URL_health_monitor_tool
 
-** ### 2. Install Dependencies **
+### 2. Install Dependencies
 pip install -r requirements.txt
 
 ** ###
