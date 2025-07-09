@@ -43,7 +43,7 @@ Create a .bat file (e.g., run_health_check.bat) with the following content:
    call .venv\Scripts\activate.bat
    python -m monitor
 
-**Note:** You can schedule this in Windows Task Scheduler by creating a new task and setting the execution time and the path to this .bat file.
+**Note:**You can schedule this in Windows Task Scheduler by creating a new task and setting the execution time and the path to this .bat file.
 
 **Example Output:**
    ```bash
