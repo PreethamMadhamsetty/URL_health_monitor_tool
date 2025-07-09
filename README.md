@@ -12,9 +12,9 @@ A Python-based tool to check the health of multiple URLs, log their status, and 
 2. **Install Dependencies**
 It is recommended to create a virtual environment first
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+   python -m venv .venv
+   .venv\Scripts\activate
+   pip install -r requirements.txt
 
 3. **Preparing Environment file**
 EMAIL_USER=your_email@gmail.com
