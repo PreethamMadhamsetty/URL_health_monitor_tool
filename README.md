@@ -17,9 +17,10 @@ It is recommended to create a virtual environment first
    pip install -r requirements.txt
 
 3. **Preparing Environment file**
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password
-EMAIL_RECIPIENTS=recipient1@gmail.com,recipient2@gmail.com
+   ```bash
+   EMAIL_USER=your_email@gmail.com
+   EMAIL_PASS=your_app_password
+   EMAIL_RECIPIENTS=recipient1@gmail.com,recipient2@gmail.com
 ⚠️ If you're using Gmail with 2-step verification, generate an App Password from your Google account.
 
 4. **Add URLs to monitor**
