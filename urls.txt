@@ -1,0 +1,4 @@
+https://www.google.com
+http://github.com
+https://example.com/doesnotexist
+http://10.255.255.1
