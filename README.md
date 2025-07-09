@@ -51,7 +51,7 @@ Create a .bat file (e.g., run_health_check.bat) with the following content:
    [404] Client Error - Not Found or Unauthorized for https://httpstat.us/404  
    [EMAIL SENT] Alert sent to: you@example.com
 
-**Important Network Checks:**  
+7. **Important Network Checks:**  
 Ensure the machine running this tool has active internet connectivity. The URLs you want to monitor must be accessible from this server, and any firewalls or network security groups should allow outbound HTTP/HTTPS traffic to those endpoints.
 
 
