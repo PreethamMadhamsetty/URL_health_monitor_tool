@@ -43,17 +43,6 @@ Create a .bat file (e.g., run_health_check.bat) with the following content:
    call .venv\Scripts\activate.bat
    python -m monitor
 
-**Note:**You can schedule this in Windows Task Scheduler by creating a new task and setting the execution time and the path to this .bat file.
-
-**Example Output:**
-   ```bash
-   [200] UP - Success for https://example.com
-   [404] Client Error - Not Found or Unauthorized for https://httpstat.us/404
-   [EMAIL SENT] Alert sent to: you@example.com
-
-**Important Network Checks:**
-Ensure the machine running this tool has active internet connectivity. The URLs you want to monitor must be accessible from this server, and any firewalls or network security groups should allow outbound HTTP/HTTPS traffic to those endpoints.
-
 
 
 
